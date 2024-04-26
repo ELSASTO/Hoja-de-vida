@@ -8,7 +8,6 @@
     <!-- <CTA/> -->
     <Contact class="mt-10"/>
   </div>
-  <!-- </v-container> -->
 </template>
 
 <script>

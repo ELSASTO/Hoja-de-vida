@@ -2,18 +2,18 @@
     <div align="center" justify="center">
         <v-row align="center" justify="center">
             <v-col align="center" justify="center" cols="12" xl="9" lg="10" md="10" >
-                <div class="contet-titles my-5">
+                <div class="contet-titles my-5" data-aos="fade-right" data-aos-duration="3000">
                     <h2 class="titles">CONOCIMIENTOS ACTUALES</h2>
                 </div>
                 <v-container class="pa-3 " >
                     <v-row  align="center" justify="center" >
                         <v-col  cols="2" v-for="({img,alt,Name}, index) in Conocimientos" :key="index">
                             <div
-                                class="py-2 shadow"
+                                class="py-2 shadow "
                             >
                                 <v-tooltip bottom color="#920a0a">
                                     <template v-slot:activator="{ on }" >
-                                        <img v-on="on" class="img-languages" :alt="alt" :title="alt"  :src="img">
+                                        <img v-on="on" data-aos="zoom-in-up" data-aos-duration="2000" class="img-languages" :alt="alt" :title="alt"  :src="img">
                                     </template>
                                     <h3 class="knowledge text-capitalize">{{Name}}</h3>
                                 </v-tooltip>
@@ -26,7 +26,7 @@
         </v-row>
         <v-row align="center" justify="center">
             <v-col align="center" justify="center" cols="12" xl="8" lg="9" md="10" >
-                <div class="contet-titles my-5">
+                <div class="contet-titles my-5" data-aos="fade-right" data-aos-duration="3000">
                     <h2 class="titles">CONOCIMIENTOS DE INTERES</h2>
                 </div>
                 <v-container class="pa-3" >
@@ -35,7 +35,7 @@
                             <div class="py-2 shadow">
                                 <v-tooltip bottom color="#920a0a">
                                     <template v-slot:activator="{ on }" >
-                                        <img v-on="on" class="img-languages" :alt="alt" :title="alt"  :src="img">
+                                        <img v-on="on" data-aos="zoom-in-up" data-aos-duration="2000" class="img-languages" :alt="alt" :title="alt"  :src="img">
                                     </template>
                                     <h3 class="knowledge text-capitalize">{{Name}}</h3>
                                 </v-tooltip>

@@ -2,11 +2,12 @@
     <div class="contenedor">
         <v-row justify="center" align="center">
             <v-col cols="12" md="10" justify="center" align="center">
-                <div class="contet-titles mx-8">
-                    <h2 class="titles">PROYECTOS A CARGO</h2>
+                <div class="contet-titles mx-8" data-aos="fade-right" data-aos-duration="3000">
+                    <h2 class="titles">PROYECTOS:</h2>
                 </div>
                 <VueSlickCarousel v-bind="settings" >
-                    <div v-for="({img,alt,NameProyect, Description}, index) in projects" :key="index">
+                    <div v-for="({img,alt,NameProyect, Description}, index) in projects" :key="index" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
                         <div
                             class="card mx-5" 
                             max-width="auto"
