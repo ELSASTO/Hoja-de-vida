@@ -2,7 +2,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: 'Portafolio Alejandro Sastoque',
+    titleTemplate: 'Portafolio Alejandro Sastoque desarrollado web full stack',
     title: 'Portafolio ELSASTO',
     htmlAttrs: {
       lang: 'en'

@@ -1,9 +1,11 @@
 <template>
   <v-app dark>
     <v-main>
+      <v-container class="mt-10 mb-10">
         <ClientOnly>
           <Nuxt />
         </ClientOnly>
+      </v-container>
     </v-main>
   
     <v-footer

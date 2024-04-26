@@ -1,41 +1,41 @@
 <template>
     <div class="contenedor">
-            <v-row justify="center" align="center">
-                <v-col cols="12" md="10" justify="center" align="center">
-                    <div class="contet-titles mx-8">
-                        <h2 class="titles">PROYECTOS A CARGO</h2>
-                    </div>
-                    <VueSlickCarousel v-bind="settings" >
-                        <div v-for="({img,alt,NameProyect, Description}, index) in projects" :key="index">
-                            <div
-                                class="card mx-5" 
-                                max-width="auto"
-                                justify="start" align="start"
+        <v-row justify="center" align="center">
+            <v-col cols="12" md="10" justify="center" align="center">
+                <div class="contet-titles mx-8">
+                    <h2 class="titles">PROYECTOS A CARGO</h2>
+                </div>
+                <VueSlickCarousel v-bind="settings" >
+                    <div v-for="({img,alt,NameProyect, Description}, index) in projects" :key="index">
+                        <div
+                            class="card mx-5" 
+                            max-width="auto"
+                            justify="start" align="start"
+                        >
+                            <img
+                                height="149px"
+                                class="rounded-xl"
+                                :src="img"
+                                :alt="alt"
+                                :title="alt"
+                                cover
                             >
-                                <img
-                                    height="149px"
-                                    class="rounded-xl"
-                                    :src="img"
-                                    :alt="alt"
-                                    :title="alt"
-                                    cover
-                                >
-    
-                                <h3 class="ma-2 title-card">
-                                    {{NameProyect}}
-                                </h3>
-                                <v-divider color="#500000"></v-divider>
-                                <v-card-text class="text-card">
-                                    {{Description}}
-                                </v-card-text>
-                            </div>
+
+                            <h3 class="ma-2 title-card">
+                                {{NameProyect}}
+                            </h3>
+                            <v-divider color="#500000"></v-divider>
+                            <v-card-text class="text-card">
+                                {{Description}}
+                            </v-card-text>
                         </div>
-                    </VueSlickCarousel>
-                </v-col>
-            </v-row>
+                    </div>
+                </VueSlickCarousel>
+            </v-col>
+        </v-row>
     </div>
-  </template>
-  <script>
+</template>
+<script>
 import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 // optional style for arrows & dots
@@ -62,7 +62,7 @@ export default {
                 "autoplay": true,
                 "speed": 5000,
                 "autoplaySpeed": 2000,
-                "slidesToShow": 3,
+                "slidesToShow": 2.5,
                 "slidesToScroll": 1,
                 "initialSlide": 0,
                 "responsive": [
