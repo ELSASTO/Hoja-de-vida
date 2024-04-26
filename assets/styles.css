@@ -1,0 +1,33 @@
+/* .contet-titles{
+
+}
+.titles{
+
+} */
+.shadow{
+    /* width: 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #500000;
+    border-radius: 20px;
+}
+.img-languages{
+    height: 40px;
+    margin-right: 10px;
+}
+.knowledge{
+    color: #ffdddd;
+    font-size: 15px;
+}
+.card{
+    background: #ff0000;
+    background: linear-gradient(160deg, #ff0000 0%, rgba(9,9,121,0) 89%);
+    border-radius: 20px;
+    border: #500000 solid 1px;
+}
+.card-experience{
+    
+    border-radius: 20px;
+    border: #500000 solid 1px;
+}
