@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="contenedor">
         <v-row justify="center" align="center">
             <v-col cols="12" md="10" justify="center" align="center">
-                <div class="contet-titles mb-10">
+                <div class="contet-titles mx-8">
                     <h2 class="titles">PROYECTOS A CARGO</h2>
                 </div>
                 <VueSlickCarousel v-bind="settings" >
@@ -10,6 +10,7 @@
                         <div
                             class="card mx-5" 
                             max-width="auto"
+                            justify="start" align="start"
                         >
                             <img
                                 height="149px"
@@ -20,11 +21,11 @@
                                 cover
                             >
 
-                            <h3 class="my-5 mx-3">
+                            <h3 class="my-5 mx-3 title-card">
                                 {{NameProyect}}
                             </h3>
                             <v-divider color="#500000"></v-divider>
-                            <v-card-text>
+                            <v-card-text class="text-card">
                                 {{Description}}
                             </v-card-text>
                         </div>

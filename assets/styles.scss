@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+.font1 {
+    font-family: "Anta", sans-serif;
+}
+.font2 {
+    font-family: "Jersey 10", sans-serif;
+}
+/* .contet-titles{
+
+} */
+.titles{
+    font-weight: 900;
+    color: #ff0000;
+    font-size: 50px;
+    font-family: "Jersey 10", sans-serif;
+    @media only screen and (max-width: 600px){
+        font-size: 40px;
+    }   
+}
+.MyName{
+    font-weight: 900;
+    color: #ff0000;
+    font-size: 50px;
+    font-family: "Jersey 10", sans-serif;
+    @media only screen and (max-width: 600px){
+        font-size: 40px;
+    }
+}
+.shadow{
+    /* width: 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: #500000;
+    border-radius: 20px;
+}
+.img-languages{
+    height: 40px;
+    margin-right: 10px;
+}
+.knowledge{
+    color: #ffdddd;
+    font-size: 15px;
+}
+.card{
+    background: #292929;
+    background: linear-gradient(160deg, #292929 0%, rgba(9,9,121,0) 89%);
+    border-radius: 20px;
+    // border: #500000 solid 1px;
+}
+.title-card{
+    font-weight: 900;
+    color: #ff0000;
+    font-size: 20px;
+    font-family: "Anta", sans-serif;
+    @media only screen and (max-width: 600px){
+        font-size: 15px;
+    }   
+}
+.text-card{
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Anta", sans-serif;
+}
+.card-experience{
+    border-radius: 20px;
+    border: #500000 solid 1px;
+}
+.contenedor{
+    background-color: #292929; 
+    border: #292929 1px solod; 
+    border-radius: 20px;
+}

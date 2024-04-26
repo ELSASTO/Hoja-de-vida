@@ -3,7 +3,7 @@
     <Welcome />
     <Knowledge/>
     <Projects/>
-    <WorkExperience/>
+    <WorkExperience />
     <CTA/>
     <Contact/>
   </div>
