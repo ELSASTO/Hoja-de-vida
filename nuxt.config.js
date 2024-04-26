@@ -11,7 +11,10 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Explora mi portafolio donde muestro mi experiencia en desarrollo web, liderazgo de equipos y proyectos innovadores. ¡Descúbrelo ahora!' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'robots', content: 'index, follow' },
+      { name: 'author', content: 'Alejandro Sastoque - EL SASTO' },
+      { name: 'publisher', content: 'Alejandro Sastoque - EL SASTO' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
