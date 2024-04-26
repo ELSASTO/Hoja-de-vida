@@ -1,40 +1,54 @@
 <template>
     <div class="contenedor">
         <v-row justify="center" align="center">
-            <v-col cols="12" md="10" justify="center" align="center">
+            <v-col cols="11" md="10" justify="center" align="center">
                 <div class="contet-titles mx-8" data-aos="fade-right" data-aos-duration="3000">
                     <h2 class="titles">PROYECTOS:</h2>
                 </div>
-                <VueSlickCarousel v-bind="settings" >
-                    <div v-for="({img,alt,NameProyect, Description}, index) in projects" :key="index" data-aos="fade-up">
-                        <div
-                            class="card mx-5" 
-                            max-width="auto"
-                            justify="start" align="start"
-                        >
-                            <img
-                                height="149px"
-                                class="rounded-xl"
-                                :src="img"
-                                :alt="alt"
-                                :title="alt"
-                                cover
-                            >
+                <v-container>
 
-                            <h3 class="ma-2 title-card">
-                                {{NameProyect}}
-                            </h3>
-                            <v-divider color="#500000"></v-divider>
-                            <v-card-text class="text-card">
-                                {{Description}}
-                            </v-card-text>
+                    <VueSlickCarousel v-bind="settings" >
+                        <div v-for="({img,alt,NameProyect, Description}, index) in projects" :key="index" data-aos="fade-up">
+                            <div
+                                class="card mx-5" 
+                                max-width="auto"
+                                justify="start" align="start"
+                            >
+                                <img
+                                    height="149px"
+                                    class="rounded-xl"
+                                    :src="img"
+                                    :alt="alt"
+                                    :title="alt"
+                                    cover
+                                >
+    
+                                <h3 class="ma-2 title-card">
+                                    {{NameProyect}}
+                                </h3>
+                                <v-divider color="#500000"></v-divider>
+                                <v-card-text class="text-card">
+                                    {{Description}}
+                                </v-card-text>
+                            </div>
                         </div>
-                    </div>
-                </VueSlickCarousel>
+                    </VueSlickCarousel>
+                </v-container>
             </v-col>
         </v-row>
     </div>
 </template>
+<style lang="scss">
+.slick-prev:before {
+  color: red;
+  font-size: 30px;
+}
+
+.slick-next:before {
+  color: red;
+  font-size: 30px;
+}
+</style>
 <script>
 import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
@@ -60,10 +74,13 @@ export default {
                 "dots": false,
                 "infinite": true,
                 "autoplay": true,
-                "speed": 5000,
-                "autoplaySpeed": 2000,
-                "slidesToShow": 2.5,
+                "speed": 1000,
+                "autoplaySpeed": 10000,
+                "slidesToShow": 3,
                 "slidesToScroll": 1,
+                "pauseOnDotsHover": true,
+                "pauseOnFocus": true,
+                "pauseOnHover": true,
                 "initialSlide": 0,
                 "responsive": [
                     {
@@ -88,7 +105,6 @@ export default {
                         "settings": {
                             "slidesToShow": 1,
                             "slidesToScroll": 1,
-                            "arrows": false,
                         }
                     }
                 ]

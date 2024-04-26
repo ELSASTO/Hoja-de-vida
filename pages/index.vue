@@ -1,12 +1,13 @@
 <template>
   <div>
-    <!-- <TheHead/> -->
+    <TheHead/>
     <Welcome />
     <Knowledge/>
     <Projects/>
     <WorkExperience />
     <!-- <CTA/> -->
-    <Contact class="mt-10"/>
+    <Contact class="mt-10 mb-10"/>
+    <Freelancer/>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Projects from '~/components/Index/Projects';
 import WorkExperience from '~/components/Index/WorkExperience';
 import CTA from '~/components/Index/CTA';
 import Contact from '~/components/Index/Contact';
+import Freelancer from '~/components/Index/Freelancer';
 export default ({
   components:{
     TheHead,
@@ -26,7 +28,8 @@ export default ({
     Projects,
     WorkExperience,
     CTA,
-    Contact
+    Contact,
+    Freelancer
   }
 })
 </script>

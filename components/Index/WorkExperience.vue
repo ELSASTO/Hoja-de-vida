@@ -18,7 +18,7 @@
                                     data-aos-offset="300"
                                     data-aos-easing="ease-in-sine"
                                     height="200px"
-                                    class="rounded-xl"
+                                    class="rounded-xl mt-10 mt-lg-0"
                                     :src="img"
                                     :alt="alt"
                                     :title="alt"
@@ -66,12 +66,13 @@ export default {
                 alt:"equipo_beta_agencia_manage", 
                 NameCompany:"Agencia Manager SAS", 
                 labors:"Durante mi trayectoria en Agencia Manager, me desempeñé como líder de equipo, gestionando el desarrollo y la personalización de diversos proyectos web. Planifiqué e implementé estrategias para garantizar el éxito de cada proyecto. Además, me encargué del mantenimiento del software y administré el hosting a través de SSH, asegurando un rendimiento óptimo y seguro para nuestros clientes.",
-                tecnologias:["Nuxt.js","Vue.js", "Vuetify.js", "Node.js", "HTML5", "CSS", "MySQL", "PHP", "APIRest", "WordPress","DIVI", "ELEMENTOR", "Plugins", "WooCommerce"]
+                tecnologias:["Nuxt.js","Vue.js", "Vuetify.js", "Node.js", "HTML5", "CSS", "MySQL", "PHP", "APIRest", "SSH", "WordPress","DIVI", "ELEMENTOR", "Plugins", "WooCommerce"]
             }
             ],
             show: false,
             settings: {
                 "dots": true,
+                "fade": true,
                 "infinite": true,
                 "autoplay": true,
                 "speed": 5000,
@@ -79,6 +80,9 @@ export default {
                 "slidesToShow": 1,
                 "slidesToScroll": 1,
                 "initialSlide": 0,
+                "pauseOnDotsHover": true,
+                "pauseOnFocus": true,
+                "pauseOnHover": true,
                 "responsive": [
                     {
                     "breakpoint": 1024,

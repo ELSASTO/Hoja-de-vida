@@ -18,7 +18,7 @@
 
 } */
 .titles{
-    font-weight: 700;
+    font-weight: 2  00;
     color: #ff0000;
     font-size: 50px;
     font-family: "Jersey 10", sans-serif;
@@ -27,7 +27,7 @@
     }   
 }
 .MyName{
-    font-weight: 500;
+    font-weight: 400;
     color: #ff0000;
     font-size: 50px;
     font-family: "Jersey 10", sans-serif;
@@ -60,6 +60,12 @@
     // background: linear-gradient(160deg, #5d5d5d 0%, rgba(9,9,121,0) 89%);
     border-radius: 20px;
     // border: #5d5d5d solid 1px;
+}
+.card2{
+    // background: #5d5d5d;
+    // background: linear-gradient(160deg, #5d5d5d 0%, rgba(9,9,121,0) 89%);
+    border-radius: 20px;
+    border: #5d5d5d solid 1px;
 }
 .title-card{
     font-weight: 900;
@@ -103,55 +109,3 @@
     border-radius: 50px; /* Color de fondo blanco para mayor contraste */
     text-align: center; /* Centra el contenido horizontalmente */
 }
-
-.menu-hamburguesa {
-    position: relative;
-    z-index: 9999;
-  }
-  
-  .btn-menu {
-    display: block;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-  }
-  
-  .btn-menu span {
-    display: block;
-    width: 100%;
-    height: 5px;
-    background-color: #ffffff;
-    margin-top: 5px;
-  }
-  
-  .nav-menu {
-    position: absolute;
-    top: 50px;
-    right: 0;
-    background-color: #ff0000;
-    padding: 20px;
-    display: none;
-  }
-  
-  .nav-menu ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .nav-menu li {
-    margin-bottom: 15px;
-  }
-  
-  .nav-menu a {
-    display: block;
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  .showMenu {
-    display: block;
-  }
-  
