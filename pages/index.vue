@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TheHead/>
+    <!-- <TheHead/> -->
     <Welcome />
     <Knowledge/>
     <Projects/>

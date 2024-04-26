@@ -5,7 +5,7 @@
                 <div class="contet-titles mb-10" data-aos="fade-right" data-aos-duration="3000">
                     <h2 class="titles">EXPERIENCIA LABORAL</h2>
                 </div>
-                <VueSlickCarousel v-bind="settings" >
+                <!-- <VueSlickCarousel v-bind="settings" > -->
                     <div v-for="({img,alt,NameCompany, labors,tecnologias}, index) in experiencia" :key="index">
                         <div
                             class="card-experience mx-5" 
@@ -45,7 +45,7 @@
                     </div>
                        
                     </div>
-                </VueSlickCarousel>
+                <!-- </VueSlickCarousel> -->
 
             </v-col>
         </v-row>
