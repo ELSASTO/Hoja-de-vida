@@ -47,15 +47,19 @@
     height: 40px;
     margin-right: 10px;
 }
+.img-languages:hover{
+    filter: drop-shadow(5px 5px 20px #ff5757);
+    scale: 110%;
+}
 .knowledge{
     color: #ffdddd;
     font-size: 15px;
 }
 .card{
-    background: #292929;
-    background: linear-gradient(160deg, #292929 0%, rgba(9,9,121,0) 89%);
+    // background: #5d5d5d;
+    // background: linear-gradient(160deg, #5d5d5d 0%, rgba(9,9,121,0) 89%);
     border-radius: 20px;
-    // border: #500000 solid 1px;
+    // border: #5d5d5d solid 1px;
 }
 .title-card{
     font-weight: 900;
@@ -80,4 +84,19 @@
     background-color: #292929; 
     border: #292929 1px solod; 
     border-radius: 20px;
+}
+.contenedor-tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // background-color: #500000;
+    // border-radius: 50px;
+}
+
+.contenedor-tecnologias .tecnologia {
+    width: calc(25% - 10px); /* Calcula el 20% del ancho total del contenedor y resta 10px de margen entre los elementos */
+    margin-bottom: 10px; /* Agrega un pequeño margen inferior entre las filas */
+    background-color: #500000;
+    border-radius: 50px; /* Color de fondo blanco para mayor contraste */
+    text-align: center; /* Centra el contenido horizontalmente */
 }

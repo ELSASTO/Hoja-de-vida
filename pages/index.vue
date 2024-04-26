@@ -4,8 +4,8 @@
     <Knowledge/>
     <Projects/>
     <WorkExperience />
-    <CTA/>
-    <Contact/>
+    <!-- <CTA/> -->
+    <Contact class="mt-10"/>
   </div>
 </template>
 

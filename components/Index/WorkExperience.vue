@@ -6,13 +6,13 @@
                     <h2 class="titles">EXPERIENCIA LABORAL</h2>
                 </div>
                 <VueSlickCarousel v-bind="settings" >
-                    <div v-for="({img,alt,NameCompany, labors}, index) in experiencia" :key="index">
+                    <div v-for="({img,alt,NameCompany, labors,tecnologias}, index) in experiencia" :key="index">
                         <div
                             class="card-experience mx-5" 
                             max-width="auto"
                         >
                         <v-row justify="center" align="center">
-                            <v-col cols="12" lg="5" justify="center" align="center">
+                            <v-col cols="12" lg="4" justify="center" align="center">
                                 <img
                                     height="200px"
                                     class="rounded-xl"
@@ -22,13 +22,21 @@
                                     cover
                                 >
                             </v-col>
-                            <v-col  cols="12" lg="6">
-                                <h3 class="my-5 mx-3">
-                                    {{NameCompany}}
+                            <v-col  cols="12" lg="7" justify="start" align="start" class="ma-2">
+                                <h3 class=" title-card ma-2">
+                                    <v-icon color="#ff9494">mdi-domain</v-icon> {{NameCompany}} <v-icon>mdi-arrow-right</v-icon>
                                 </h3>
-                                <p>
+                                <h4 class="text-card mb-5 ma-2" style="font-size: 10px;">2021 - 2024 (2 Años 7 meses)</h4>
+                                <p class="text-card ma-2" style="font-weight: lighter !important;  ">
                                     {{labors}}
                                 </p>
+                                <h3 class="title-card ma-2">
+                                    <v-icon color="#ff9494">mdi-laptop</v-icon> Tecnologias <v-icon>mdi-arrow-right</v-icon>
+                                </h3>
+                                <div class="contenedor-tecnologias">
+                                    <div class="tecnologia font1" v-for="tecnologia in tecnologias" :key="tecnologia">{{ tecnologia }}</div>
+                                </div>
+
                             </v-col>
                         </v-row>
                     </div>
@@ -51,7 +59,12 @@ export default {
     data() {
         return {
             experiencia:[
-                {img:"/IMG/experience/equipo_beta_agencia_manager.webp", alt:"equipo_beta_agencia_manage", NameCompany:"Agencia Manager SAS", labors:"Vue.js · Desarrollo en Wordpress · Mockups · Diseño centrado en el usuario · WordPress · Resolución de problemas · Experiencia de usuario · Proyectos de desarrollo · Análisis de requisitos · Análisis web · Balsamiq · Investigación de palabras clave · Capacidad de respuesta · Habilidades sociales · Trabajo en equipo · Revisión de código · Nuxt.js · Comunicación con los clientes · Bases de datos · Flujos de usuario · Implementación de estrategias · Mantenibilidad · Requisitos técnicos · Estructuras de datos · Desarrollo de software · Shopify · Node.js · Plugins · HTML · Algoritmos"}
+                {img:"/IMG/experience/equipo_beta_agencia_manager.webp", 
+                alt:"equipo_beta_agencia_manage", 
+                NameCompany:"Agencia Manager SAS", 
+                labors:"Durante mi trayectoria en Agencia Manager, me desempeñé como líder de equipo, gestionando el desarrollo y la personalización de diversos proyectos web. Planifiqué e implementé estrategias para garantizar el éxito de cada proyecto. Además, me encargué del mantenimiento del software y administré el hosting a través de SSH, asegurando un rendimiento óptimo y seguro para nuestros clientes.",
+                tecnologias:["Full-Stack","Nuxt.js","Vue.js", "Vuetify.js", "Node.js", "HTML5", "CSS", "MySQL", "PHP", "APIRest", "WordPress","DIVI", "ELEMENTOR", "Plugins", "WooCommerce"]
+            }
             ],
             show: false,
             settings: {
