@@ -6,8 +6,7 @@
                     <h2 class="titles">PROYECTOS:</h2>
                 </div>
                 <VueSlickCarousel v-bind="settings" >
-                    <div v-for="({img,alt,NameProyect, Description}, index) in projects" :key="index" data-aos="fade-up"
-     data-aos-anchor-placement="center-center">
+                    <div v-for="({img,alt,NameProyect, Description}, index) in projects" :key="index" data-aos="fade-up">
                         <div
                             class="card mx-5" 
                             max-width="auto"
