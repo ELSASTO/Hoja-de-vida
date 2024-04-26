@@ -2,7 +2,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - Portafolio ELSASTO ',
+    titleTemplate: 'Portafolio Alejandro Sastoque',
     title: 'Portafolio ELSASTO',
     htmlAttrs: {
       lang: 'en'
@@ -10,7 +10,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Explora mi portafolio donde muestro mi experiencia en desarrollo web, liderazgo de equipos y proyectos innovadores. ¡Descúbrelo ahora!' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
