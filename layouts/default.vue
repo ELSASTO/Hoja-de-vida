@@ -1,7 +1,8 @@
 <template>
   <v-app dark>
     <v-main>
-      <v-container class="mt-10 mb-10">
+      
+      <v-container fluid class="mt-10 mb-10">
         <ClientOnly>
           <Nuxt />
         </ClientOnly>
