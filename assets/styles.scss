@@ -18,7 +18,7 @@
 
 } */
 .titles{
-    font-weight: 900;
+    font-weight: 700;
     color: #ff0000;
     font-size: 50px;
     font-family: "Jersey 10", sans-serif;
@@ -27,7 +27,7 @@
     }   
 }
 .MyName{
-    font-weight: 900;
+    font-weight: 500;
     color: #ff0000;
     font-size: 50px;
     font-family: "Jersey 10", sans-serif;
@@ -95,6 +95,9 @@
 
 .contenedor-tecnologias .tecnologia {
     width: calc(25% - 10px); /* Calcula el 20% del ancho total del contenedor y resta 10px de margen entre los elementos */
+    @media only screen and (max-width: 600px){
+        width: calc(38% - 10px);
+    }  
     margin-bottom: 10px; /* Agrega un pequeño margen inferior entre las filas */
     background-color: #500000;
     border-radius: 50px; /* Color de fondo blanco para mayor contraste */

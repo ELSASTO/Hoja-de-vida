@@ -1,19 +1,17 @@
 <template>
   <v-app dark>
     <v-main>
-      <v-container fluid>
-        <ClientOnly>
+        <!-- <ClientOnly> -->
         <Nuxt />
-        </ClientOnly>
-      </v-container>
+        <!-- </ClientOnly> -->
     </v-main>
   
-    <!-- <v-footer
+    <v-footer
       :absolute="!fixed"
       app
     >
       <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer> -->
+    </v-footer>
     
   </v-app>
 </template>

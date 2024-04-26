@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <v-container class="mt-10 mb-10">
     <Welcome />
     <Knowledge/>
     <Projects/>
     <WorkExperience />
     <!-- <CTA/> -->
     <Contact class="mt-10"/>
-  </div>
+  </v-container>
 </template>
 
 <script>
