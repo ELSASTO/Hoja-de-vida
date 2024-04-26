@@ -23,7 +23,7 @@ jobs:
 
     - name: Install & Generate 🔧
       run: |
-        run i
+        npm run i
         npm ci
         npm run generate
       env:
