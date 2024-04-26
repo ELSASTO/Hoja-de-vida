@@ -1,9 +1,9 @@
 <template>
   <v-app dark>
     <v-main>
-        <!-- <ClientOnly> -->
-        <Nuxt />
-        <!-- </ClientOnly> -->
+        <ClientOnly>
+          <Nuxt />
+        </ClientOnly>
     </v-main>
   
     <v-footer
