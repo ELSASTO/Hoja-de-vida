@@ -26,7 +26,7 @@
         </v-row>
         <v-row align="center" justify="center">
             <v-col align="center" justify="center" cols="12" xl="8" lg="9" md="10" >
-                <div class="contet-titles my-5" data-aos="fade-right" data-aos-duration="3000">
+                <div class="contet-titles my-5" data-aos="fade-right">
                     <h2 class="titles">CONOCIMIENTOS DE INTERES</h2>
                 </div>
                 <v-container class="pa-3" >

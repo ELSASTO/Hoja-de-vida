@@ -36,7 +36,7 @@
                                 <h3 class="title-card ma-2">
                                     <v-icon color="#ff9494">mdi-laptop</v-icon> Tecnologias <v-icon>mdi-arrow-right</v-icon>
                                 </h3>
-                                <div class="contenedor-tecnologias mx-2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                                <div class="contenedor-tecnologias mx-2" data-aos="fade-down">
                                     <div class="tecnologia font1" v-for="tecnologia in tecnologias" :key="tecnologia">{{ tecnologia }}</div>
                                 </div>
 
