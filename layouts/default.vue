@@ -3,9 +3,9 @@
     <v-main>
       
       <v-container fluid class="mt-10 mb-10">
-        <!-- <ClientOnly> -->
+        <ClientOnly>
           <Nuxt />
-        <!-- </ClientOnly> -->
+        </ClientOnly>
       </v-container>
     </v-main>
   
