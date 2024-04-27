@@ -18,8 +18,8 @@
                             </v-btn>
                         </div>
                     </v-col>
-                    <v-col align="center" justify="center" cols="10" md="5" lg="5" sm="10" class="mb-10 " data-aos="fade-up-left" data-aos-duration="4000">
-                        <img class="foto"  width="450" src="/IMG/Desarrollador_web_Alejandro_Sastouqe.webp">
+                    <v-col align="center" justify="center" cols="10" md="5" lg="5" sm="10" class="mb-10 " >
+                        <v-img class="foto" data-aos="fade-up-left" data-aos-duration="4000" width="450" src="/IMG/Desarrollador_web_Alejandro_Sastouqe.webp"/>
                     </v-col>
                 </v-row>
             </v-col>
