@@ -8,6 +8,43 @@
     font-family:  "Jersey 10";
     src: url(Jersey10-Regular.ttf);
 }
+html {
+    scroll-behavior: smooth;
+}
+/* Works on Firefox */
+::-webkit-scrollbar {
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 10px;    /* Tamaño del scroll en horizontal */
+    margin: 10px;
+    display: block;  /* Ocultar scroll */
+}
+::-webkit-scrollbar-thumb {
+    background: #500000;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ff2323;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+::-webkit-scrollbar-thumb:active {
+    background-color: #ff0000;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+    // display: none;
+    border-radius: 20px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-track:active {
+  background: #3d3d3d;
+}
+  
 .font1 {
     font-family: "Anta", sans-serif;
 }
@@ -110,4 +147,15 @@
     background-color: #500000;
     border-radius: 50px; /* Color de fondo blanco para mayor contraste */
     text-align: center; /* Centra el contenido horizontalmente */
+}
+.header{
+    background-color: #292929;
+    border-radius: 50px;
+    
+}
+.stick{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    z-index: 9999;
 }

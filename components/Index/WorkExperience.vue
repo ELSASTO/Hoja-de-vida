@@ -6,7 +6,7 @@
                     <h2 class="titles">EXPERIENCIA LABORAL</h2>
                 </div>
                 <!-- <VueSlickCarousel v-bind="settings" > -->
-                    <div v-for="({img,alt,NameCompany, labors,tecnologias}, index) in experiencia" :key="index">
+                    <div v-for="({img,alt,NameCompany,cantidad, labors,tecnologias}, index) in experiencia" :key="index">
                         <div
                             class="card-experience mx-5" 
                             max-width="auto"
@@ -29,7 +29,7 @@
                                 <h3 class=" title-card ma-2">
                                     <v-icon color="#ff9494">mdi-domain</v-icon> {{NameCompany}} <v-icon>mdi-arrow-right</v-icon>
                                 </h3>
-                                <h4 class="text-card mb-5 ma-2" style="font-size: 10px;">2021 - 2024 (2 Años 7 meses)</h4>
+                                <h4 class="text-card mb-5 ma-2" style="font-size: 10px;">{{cantidad}}</h4>
                                 <p class="text-card ma-2" style="font-weight: lighter !important;  ">
                                     {{labors}}
                                 </p>
@@ -65,6 +65,7 @@ export default {
                 {img:"/IMG/experience/equipo_beta_agencia_manager.webp", 
                 alt:"equipo_beta_agencia_manage", 
                 NameCompany:"Agencia Manager SAS", 
+                cantidad:"2021 - 2024 (2 Años 7 meses) - Desarrollador web Snr",
                 labors:"Durante mi trayectoria en Agencia Manager, me desempeñé como líder de equipo, gestionando el desarrollo y la personalización de diversos proyectos web. Planifiqué e implementé estrategias para garantizar el éxito de cada proyecto. Además, me encargué del mantenimiento del software y administré el hosting a través de SSH, asegurando un rendimiento óptimo y seguro para nuestros clientes.",
                 tecnologias:["Nuxt.js","Vue.js", "Vuetify.js", "Node.js", "HTML5", "CSS", "MySQL", "PHP", "APIRest", "SSH", "WordPress","DIVI", "ELEMENTOR", "Plugins", "WooCommerce"]
             }

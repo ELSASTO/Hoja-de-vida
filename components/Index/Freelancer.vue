@@ -2,7 +2,7 @@
     <div >
         <v-row justify="center" align="center">
             <v-col cols="11" md="10" justify="center" align="center">
-                <div class="contet-titles mx-8" data-aos="fade-right" data-aos-duration="3000">
+                <div class="contet-titles my-8" data-aos="fade-right" data-aos-duration="3000">
                     <h2 class="titles">FREELANCER:</h2>
                 </div>
                 <div >

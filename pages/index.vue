@@ -1,13 +1,13 @@
 <template>
   <div>
-    <!-- <TheHead/> -->
+    <TheHead/>
     <Welcome />
-    <Knowledge/>
-    <Projects/>
-    <WorkExperience />
+    <Knowledge id="Knowledge"/>
+    <Projects id="Projects"/>
+    <WorkExperience id="WorkExperience"/>
     <!-- <CTA/> -->
-    <Contact class="mt-10 mb-10"/>
-    <Freelancer/>
+    <Contact class="mt-10 mb-10" id="Contact"/>
+    <Freelancer id="Freelancer"/>
   </div>
 </template>
 
