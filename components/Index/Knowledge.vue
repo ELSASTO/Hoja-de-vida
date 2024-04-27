@@ -29,7 +29,7 @@
                 <div class="contet-titles my-5" data-aos="fade-right">
                     <h2 class="titles">CONOCIMIENTOS DE INTERES</h2>
                 </div>
-                <v-container class="pa-3" >
+                <v-container class="pa-3 mb-5" >
                     <v-row  align="center" justify="center">
                         <v-col  cols="2" v-for="({img,alt,Name}, index) in proximos" :key="index">
                             <div class="py-2 shadow">
