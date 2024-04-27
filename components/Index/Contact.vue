@@ -4,7 +4,7 @@
             <v-col cols="11"  class="contenedor"  align="center" justify="center">
                 <v-row align="center" justify="center">
                     <v-col  align="center" justify="center" cols="10" md="5" lg="5" sm="10">
-                        <v-img data-aos="zoom-out-right"  width="450" style="filter: drop-shadow(5px 5px 10px #ff5757);" src="/IMG/Desarrollador_FullStack_Alejandro_Sastoque.webp"></v-img>
+                        <v-img style="mask-image: linear-gradient(black 80%, transparent);" width="450"  src="/IMG/Desarrollador_web_Alejandro_Sastouqe.webp"></v-img>
                     </v-col>
                     <v-col   align="start" justify="center" cols="10" md="5" lg="5" sm="10">
                         
@@ -12,7 +12,7 @@
                             <span class="font1">
                                 SOBRE MI
                             </span><br>
-                            <span class="MyName" style="font-size: 40px;">DESARROLADOR WEB FULLSTACK</span> 
+                            <span class="MyName" >DESARROLADOR WEB FULLSTACK</span> 
                         </h2>
                         <p align="center" justify="center" data-aos="zoom-in-left" >
                             <span class="font1" style="font-size: 20px;">"Si lo puedes imaginar, lo puedes programar"</span> 
