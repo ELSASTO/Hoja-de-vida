@@ -91,16 +91,15 @@
     border-radius: 20px;
     border: #500000 solid 1px;
 }
-.foto:hover{
-    transform: rotateX(17deg) rotateY(34deg);
-transform-style: preserve-3d;
-perspective: 301px;
-transition: transform 1s ease 0s;
-}
+// .foto:hover{
+//     transform: rotateX(17deg) rotateY(34deg);
+// transform-style: preserve-3d;
+// perspective: 301px;
+// transition: transform 1s ease 0s;
+// }
 .foto{
     filter: drop-shadow(5px 5px 20px #ff5757);
     transition: transform 1s ease 0s;
-
 }
 .contenedor{
     background-color: #292929; 
