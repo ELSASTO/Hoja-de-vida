@@ -16,6 +16,7 @@
                             <v-btn class="social-button" color="red" fab small href="https://www.linkedin.com/in/jose-alejandro-sastoque-agudelo-11462abb/">
                             <v-icon dark>mdi-linkedin</v-icon>
                             </v-btn>
+                            
                         </div>
                     </v-col>
                     <v-col align="center" justify="center" cols="10" md="5" lg="5" sm="10" class="mb-10 " >
@@ -28,20 +29,3 @@
         </v-row>
     </div>
 </template>
-
-<style scoped > 
-.social-buttons {
-  /* position: fixed; */
-  /* top: 20px; Ajusta la posición vertical según necesites */
-  /* right: 20px; Ajusta la posición horizontal según necesites */
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  
-}
-
-.social-button {
-  margin-left: 10px;
-  margin-top: 10px;
-}
-</style>

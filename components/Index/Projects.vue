@@ -2,7 +2,7 @@
     <div class="contenedor">
         <v-row justify="center" align="center">
             <v-col cols="11" md="10" justify="center" align="center">
-                <div class="contet-titles mx-8" data-aos="fade-right" data-aos-duration="3000">
+                <div class="contet-titles my-8" data-aos="fade-right" data-aos-duration="3000">
                     <h2 class="titles">PROYECTOS:</h2>
                 </div>
                 <v-container>
@@ -60,6 +60,7 @@ export default {
     data() {
         return {
             projects:[
+                {img:"/IMG/projects/sitio_web_unillanos_postgrados.webp", alt:"sitio_web_unillanos_postgrados",NameProyect:'28 landing pages Unilanos', Description:"Desarrollé un sitio web para la Universidad de los Llanos con 28 landing pages, una para cada posgrado. Utilicé Nuxt y Vuetify, y creé una API Rest con Node.js para validar y almacenar información de los formularios, asegurando una experiencia de usuario fluida y segura."},
                 {img:"/IMG/projects/Sitio_web_Agencia_Manager.webp", alt:"Sitio_web_Agencia_Manager",NameProyect:'Sitio Web Agencia Manager SAS', Description:"Desde cero, desarrollé el sitio web de la Agencia Manager, utilizando tecnologías avanzadas como Nuxt, Vue y Vuetify. Este proyecto incorporó un enfoque meticuloso en la creación de una interfaz intuitiva y dinámica para los usuarios"},
                 {img:"/IMG/projects/Sitio_web_LosOlivosNeiva.webp", alt:"Sitio_web_LosOlivosNeiva",NameProyect:'Sitio Web Los Olivos Neiva', Description:"Desarrollé el sitio web Olivos Neiva utilizando Nuxt.js y Vue.js para la interfaz del cliente. Además, creé una API con Node.js para gestionar los registros diarios de obituarios, organizados por sala."},
                 {img:"/IMG/projects/Tienda_LosOlivosNeiva.webp", alt:"Tienda_LosOlivosNeiva",NameProyect:'E-Coomerce Los Olivos Neiva', Description:"Desarrollé tienda virtual para Olivos Neiva en WordPress utilizando Divi y WooCommerce. Implementé código personalizado para funciones específicas solicitadas por el cliente, asegurando una experiencia de compra personalizada y eficiente."},

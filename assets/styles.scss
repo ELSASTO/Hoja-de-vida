@@ -10,6 +10,7 @@
 }
 html {
     scroll-behavior: smooth;
+    transition: 1s;
 }
 /* Works on Firefox */
 ::-webkit-scrollbar {
@@ -159,3 +160,16 @@ html {
     top: 10px;
     z-index: 9999;
 }
+.social-buttons {
+    /* position: fixed; */
+    /* top: 20px; Ajusta la posición vertical según necesites */
+    /* right: 20px; Ajusta la posición horizontal según necesites */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+  }
+  .social-button {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
