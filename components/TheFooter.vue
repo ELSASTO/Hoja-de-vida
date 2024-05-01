@@ -11,8 +11,8 @@
                         <v-icon dark>mdi-linkedin</v-icon>
                         </v-btn>
                     </div>
-                    <v-row align="center" justify="center">
-                        <v-col align="center" justify="center" cols="12" xl="6" lg="6" md="6">
+                    <v-row align="center" justify="center"> 
+                        <v-col class="pl-7 pr-7" align="center" justify="center" cols="12" xl="6" lg="6" md="6">
                             <v-text-field
                                 label="Enviar Mensaje"
                                 color="red"
@@ -24,8 +24,8 @@
                             <v-btn data-aos="fade-up" data-aos-anchor-placement="top-bottom" block class="font1 mt-5" style="background-color: #ff0000;" @click="sendMessage">Enviar Mensaje</v-btn>
                         </v-col>
                     </v-row>
-                    <v-row justify="space-around">
-                        <div class="d-none d-xl-block d-lg-block mb-5">
+                    <v-row justify="space-around" >
+                        <div class="mb-5">
                             <v-btn v-for="({item,href}, index) in menuItems" :key="index" text :href="href">{{item}}</v-btn>
                         </div>
                     </v-row>
